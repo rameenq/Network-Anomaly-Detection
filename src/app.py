@@ -3,6 +3,9 @@ import joblib  # To load the trained machine learning model
 import numpy as np  # For numerical operations
 import os
 
+port = int(os.environ.get('PORT', 5000))
+app.run(host='0.0.0.0', port=port)
+
 app = Flask(__name__)
 
 # Check if the model file exists
