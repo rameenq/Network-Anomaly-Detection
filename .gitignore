@@ -4,4 +4,4 @@ __pycache__/
 *.pyo
 *.env
 *.DS_Store
-*.ipynb_checkpoints/
+notebooks/ipynb_checkpoints/
